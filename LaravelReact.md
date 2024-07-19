@@ -22,6 +22,12 @@ NOTE: A text editor is needed, I used Visual Studio Code.
 
   🆗🆗INSTALLATION COMPLETED🆗🆗
 
+  Visit this, with the apache port (myadmin).
+```
+http://localhost:81
+```
+
+
 ### 1.2-Install Composer
   https://shaonmajumder.medium.com/how-to-install-composer-on-ubuntu-22-04-a12b07fddecd
 
