@@ -37,5 +37,5 @@ composer global require laravel/installer
 
   3.Create Laravel project (I named it laravel-react-example)
 ```
-laravel new laravel-react-example
+composer create-project laravel/laravel laravel-react-example
 ```
