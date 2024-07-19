@@ -17,4 +17,4 @@ NOTE: I will be using Ubuntu 22.04
   
   ![image](https://github.com/user-attachments/assets/9917ef7b-8cba-4edb-9c58-d837e3b3dbab)
 
-  
+  🆗🆗Installation Completed.
