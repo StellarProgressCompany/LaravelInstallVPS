@@ -25,17 +25,17 @@ NOTE: A text editor is needed, I used Visual Studio Code.
 ### 1.2-Create a Laravel Project
   1.Navigate to the directory you want to create your project and create a directory which will contain it (I will name it LaravelProject).
 ```
-  cd Desktop/
-  mkdir LaravelProject
-  cd LaravelProject/
+cd Desktop/
+mkdir LaravelProject
+cd LaravelProject/
 ```
 
   2.Install Laravel installer
 ```
-  composer global require laravel/installer
+composer global require laravel/installer
 ```
 
   3.Create Laravel project (I named it laravel-react-example)
 ```
-  laravel new laravel-react-example
+laravel new laravel-react-example
 ```
