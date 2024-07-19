@@ -30,4 +30,4 @@ NOTE: A text editor is needed, I used Visual Studio Code.
   cd LaravelProject/
 ```
 
-  2.
+  2.Install Laravel installer
