@@ -21,8 +21,25 @@ NOTE: A text editor is needed, I used Visual Studio Code.
   ![image](https://github.com/user-attachments/assets/9917ef7b-8cba-4edb-9c58-d837e3b3dbab)
 
   🆗🆗INSTALLATION COMPLETED🆗🆗
-  
-### 1.2-Create a Laravel Project
+
+### 1.3-Install Node.js (for npm)
+
+```
+# installs fnm (Fast Node Manager)
+curl -fsSL https://fnm.vercel.app/install | bash
+
+# download and install Node.js
+fnm use --install-if-missing 22
+
+# verifies the right Node.js version is in the environment
+node -v # should print `v22.5.1`
+
+# verifies the right NPM version is in the environment
+npm -v # should print `10.8.2`
+```
+
+
+### 1.4-Create a Laravel Project
   1.Navigate to the directory you want to create your project and create a directory which will contain it (I will name it LaravelProject).
 ```
 cd Desktop/
