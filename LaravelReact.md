@@ -22,6 +22,13 @@ NOTE: A text editor is needed, I used Visual Studio Code.
 
   🆗🆗INSTALLATION COMPLETED🆗🆗
 
+### 1.2-Install Composer
+  https://shaonmajumder.medium.com/how-to-install-composer-on-ubuntu-22-04-a12b07fddecd
+
+  Use this web guide, it's really good.
+
+  🆗🆗INSTALLATION COMPLETED🆗🆗
+
 ### 1.3-Install Node.js (for npm)
 
 ```
@@ -38,6 +45,7 @@ node -v # should print `v22.5.1`
 npm -v # should print `10.8.2`
 ```
 
+  🆗🆗INSTALLATION COMPLETED🆗🆗
 
 ### 1.4-Create a Laravel Project
   1.Navigate to the directory you want to create your project and create a directory which will contain it (I will name it LaravelProject).
