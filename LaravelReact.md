@@ -1,6 +1,7 @@
 # How to install Laravel + React project
   
 NOTE: I will be using Ubuntu 22.04. 
+
 NOTE: A text editor is needed, I used Visual Studio Code.
 
 
@@ -22,4 +23,11 @@ NOTE: A text editor is needed, I used Visual Studio Code.
   🆗🆗INSTALLATION COMPLETED🆗🆗
   
 ### 1.2-Create a Laravel Project
-  You need to go to this web: www.apachefriends.org
+  1.Navigate to the directory you want to create your project and create a directory which will contain it (I will name it LaravelProject).
+```
+  cd Desktop/
+  mkdir LaravelProject
+  cd LaravelProject/
+```
+
+  2.
