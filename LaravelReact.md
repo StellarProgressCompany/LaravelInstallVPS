@@ -70,3 +70,19 @@ composer create-project laravel/laravel laravel-react-example
 cd laravel-react-example
 php artisan serve
 ```
+
+### 1.5-DataBase
+  1.Run XAMPP
+```
+sudo /opt/lampp/manager-linux-x64.run
+```
+
+
+
+
+
+
+
+
+
+  
