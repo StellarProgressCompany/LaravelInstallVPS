@@ -31,3 +31,7 @@ NOTE: A text editor is needed, I used Visual Studio Code.
 ```
 
   2.Install Laravel installer
+```
+  composer global require laravel/installer
+```
+
