@@ -64,3 +64,9 @@ composer global require laravel/installer
 ```
 composer create-project laravel/laravel laravel-react-example
 ```
+
+  4.Run Laravel's local development server
+```
+cd laravel-react-example
+php artisan serve
+```
