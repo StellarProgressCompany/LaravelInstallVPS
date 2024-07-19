@@ -6,7 +6,9 @@ NOTE: I will be using Ubuntu 22.04
 
 ### 1.1-Install XAMPP (Apache+MariaDB+PHP+Perl)
   You need to go to this web: www.apachefriends.org
+  
   Then download the Linux installer.
+  
   After being installed run this commands:
   
   ![image](https://github.com/user-attachments/assets/15005d6d-d044-48a4-842a-3e92ae91faaa)
