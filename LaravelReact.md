@@ -35,3 +35,7 @@ NOTE: A text editor is needed, I used Visual Studio Code.
   composer global require laravel/installer
 ```
 
+  3.Create Laravel project (I named it laravel-react-example)
+```
+  laravel new laravel-react-example
+```
