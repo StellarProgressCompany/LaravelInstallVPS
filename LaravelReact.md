@@ -107,8 +107,24 @@ http://localhost:81/dashboard/
 
   5.Migrate the Data Bases
   
-    5.1Install SQLite and the PHP SQLite extension:
-    
+  5.1-Install SQLite and the PHP SQLite extension:
+```
+sudo apt update
+sudo apt install sqlite3
+sudo apt install php-sqlite3
+```
+
+  5.2-Create the SQLite database file:
+```
+touch database/database.sqlite
+```
+
+  5.3-Configure your Laravel environment file (YES MODIFY DB_DATABASE):
+```
+DB_CONNECTION=sqlite
+DB_DATABASE=/path/to/your/project/database/database.sqlite
+```
+    5.4-Run migrations
 ```
 php artisan migrate
 ```
