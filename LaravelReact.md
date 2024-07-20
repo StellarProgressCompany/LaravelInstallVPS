@@ -108,7 +108,6 @@ http://localhost:81/dashboard/
   5.Migrate the Data Bases
   
   5.1-Install the PHP MySQL Extension:
-  
 ```
 sudo apt-get install php-mysql
 ```
