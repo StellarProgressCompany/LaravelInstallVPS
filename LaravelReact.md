@@ -159,3 +159,8 @@ npm run dev
 ```
 --port=3000
 ```
+
+  5.Run the Server again:
+```
+npm run dev
+```
