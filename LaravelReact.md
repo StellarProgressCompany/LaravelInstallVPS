@@ -5,7 +5,7 @@ NOTE: I will be using Ubuntu 22.04.
 ##### How to enable clipboard in ubuntu?
 
 ```
-
+sudo VBoxClient --clipboard
 ```
 
 NOTE: A text editor is needed, I used Visual Studio Code.
