@@ -105,7 +105,8 @@ http://localhost:81/dashboard/
 
   ![image](https://github.com/user-attachments/assets/aeec5f57-f820-496c-a0a3-8bf3c29c97e9)
 
-  5.Run migrations
+  5.Migrate the Data Bases
+    5.1Install SQLite and the PHP SQLite extension:
 ```
 php artisan migrate
 ```
