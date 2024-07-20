@@ -105,7 +105,9 @@ http://localhost:81/dashboard/
 
   ![image](https://github.com/user-attachments/assets/aeec5f57-f820-496c-a0a3-8bf3c29c97e9)
 
-
-
+  5.Run migrations
+```
+php artisan migrate
+```
 
   
