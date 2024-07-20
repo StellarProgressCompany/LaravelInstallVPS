@@ -2,14 +2,15 @@
   
 NOTE: I will be using Ubuntu 22.04. 
 
+NOTE: A text editor is needed, I used Visual Studio Code.
+
+NOTE: I followed this video: https://youtu.be/bHRe5XNP5l8?si=7j2cDSMTp6x-CcCz 
+
 ##### How to enable clipboard in ubuntu?
 
 ```
 sudo VBoxClient --clipboard
 ```
-
-NOTE: A text editor is needed, I used Visual Studio Code.
-
 
 ## Step 1: Set Up
 
@@ -164,3 +165,12 @@ npm run dev
 ```
 npm run dev
 ```
+
+
+
+## Step 2: Add Tailwind css
+
+### 1.1-Install XAMPP (Apache+MariaDB+PHP+Perl)
+  You need to go to this web: www.apachefriends.org
+  
+  Then download the Linux installer.
