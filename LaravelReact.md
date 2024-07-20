@@ -103,28 +103,22 @@ http://localhost:81/dashboard/
   4.Update .env file
   Now, we must go to the .env file and change the parameters to match the ones in the image, please note that I put 3307 because it's the port of the Server I used in XAMMP
 
-  ![image](https://github.com/user-attachments/assets/aeec5f57-f820-496c-a0a3-8bf3c29c97e9)
+  ![image](https://github.com/user-attachments/assets/5739010a-5c01-45c0-96d6-73936387d983)
 
   5.Migrate the Data Bases
   
-  5.1-Install SQLite and the PHP SQLite extension:
+  5.1-Install the PHP MySQL Extension:
+  
 ```
-sudo apt update
-sudo apt install sqlite3
-sudo apt install php-sqlite3
-```
-
-  5.2-Create the SQLite database file:
-```
-touch database/database.sqlite
+sudo apt-get install php-mysql
 ```
 
-  5.3-Configure your Laravel environment file (YES MODIFY DB_DATABASE):
+  5.2-Restart Apache to ensure the changes take effect:
 ```
-DB_CONNECTION=sqlite
-DB_DATABASE=/path/to/your/project/database/database.sqlite
+sudo /opt/lampp/lampp restart
 ```
-  5.4-Run migrations
+
+  5.3-Run migrations
 ```
 php artisan migrate
 ```
