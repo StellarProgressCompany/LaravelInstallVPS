@@ -96,11 +96,9 @@ http://localhost:81/dashboard/
 ```
 
   3.Add your first table
-  
-```
+  Click on new, change the "type" to "uft8mb4_unicode_ci" and put the name desired to the table, in my case (laravel_react_survey2)
+![image](https://github.com/user-attachments/assets/c095dc0c-fcf0-45ba-abfb-14d35e974c88)
 
-
-```
 
 
 
