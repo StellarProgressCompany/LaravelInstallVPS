@@ -124,7 +124,7 @@ touch database/database.sqlite
 DB_CONNECTION=sqlite
 DB_DATABASE=/path/to/your/project/database/database.sqlite
 ```
-    5.4-Run migrations
+  5.4-Run migrations
 ```
 php artisan migrate
 ```
