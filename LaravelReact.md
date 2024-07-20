@@ -170,7 +170,8 @@ npm run dev
 
 ## Step 2: Add Tailwind css
 
-### 1.1-Install XAMPP (Apache+MariaDB+PHP+Perl)
-  You need to go to this web: www.apachefriends.org
-  
-  Then download the Linux installer.
+### 1.1-Install Tailwind css (and its necessary programs/dependences)
+```
+
+```
+
