@@ -2,6 +2,8 @@
   
 NOTE: I will be using Ubuntu 22.04. 
 
+NOTE: Check node.js and npm latest versions are installed.
+
 NOTE: A text editor is needed, I used Visual Studio Code.
 
 NOTE: I followed this video: https://youtu.be/bHRe5XNP5l8?si=7j2cDSMTp6x-CcCz 
@@ -177,5 +179,33 @@ npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
 
-### 1.2-
+### 1.2-Configure your template paths
+  Go to the tailwind.config.js file, delete everything and then copy this:
+```
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+```
 
+### 1.3-Configure spaces (OPTIONAL)
+  Go to the .editor file and add this lines:
+```
+[*.{js, jsx, cjs}]
+indent_size = 2
+```
+
+### 1.4-Add the Tailwind directives to your CSS
+  Go to index.css and add this directives at the top:
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
