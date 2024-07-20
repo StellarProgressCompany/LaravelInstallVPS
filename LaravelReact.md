@@ -88,11 +88,19 @@ php artisan serve
 ```
 sudo /opt/lampp/manager-linux-x64.run
 ```
+  Then start running both MySQL Database and Apache Web Server 
+
+  2.Visit the MySqlDatabase
+```
+http://localhost:81/dashboard/
+```
+
+  3.Add your first table
+  
+```
 
 
-
-
-
+```
 
 
 
