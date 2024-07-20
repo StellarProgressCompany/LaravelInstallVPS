@@ -41,6 +41,7 @@ http://localhost:81
 
   🆗🆗INSTALLATION COMPLETED🆗🆗
 
+
 ### 1.3-Install Node.js (for npm)
 
 ```
@@ -58,6 +59,7 @@ npm -v # should print `10.8.2`
 ```
 
   🆗🆗INSTALLATION COMPLETED🆗🆗
+
 
 ### 1.4-Create a Laravel Project
   1.Navigate to the directory you want to create your project and create a directory which will contain it (I will name it LaravelProject).
@@ -129,6 +131,24 @@ sudo /opt/lampp/lampp restart
   5.3-Run migrations
 ```
 php artisan migrate
+```
+
+
+### 1.5-Create a React project with Vite
+
+  1.Run Vite:
+```
+npm create vite@latest
+```
+
+  2.Choose this distribution:
+![image](https://github.com/user-attachments/assets/f60beabd-a303-4d47-be7a-696900fd8c71)
+
+  3.Run this commands:
+```
+cd react
+npm install
+npm run dev
 ```
 
   
