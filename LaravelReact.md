@@ -142,6 +142,7 @@ npm create vite@latest
 ```
 
   2.Choose this distribution:
+  
 ![image](https://github.com/user-attachments/assets/f60beabd-a303-4d47-be7a-696900fd8c71)
 
   3.Run this commands:
@@ -151,4 +152,10 @@ npm install
 npm run dev
 ```
 
-  
+  4.Go to this file, an add this code to access using port 3000:
+
+  ![image](https://github.com/user-attachments/assets/26e1d41e-ffcd-4858-b568-16e690b32e60)
+
+```
+--port=3000
+```
