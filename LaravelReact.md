@@ -100,6 +100,10 @@ http://localhost:81/dashboard/
 
 ![image](https://github.com/user-attachments/assets/c095dc0c-fcf0-45ba-abfb-14d35e974c88)
 
+  4.Update .env file
+  Now, we must go to the .env file and change the parameters to match the ones in the image, please note that I put 3307 because it's the port of the Server I used in XAMMP
+
+  ![image](https://github.com/user-attachments/assets/aeec5f57-f820-496c-a0a3-8bf3c29c97e9)
 
 
 
