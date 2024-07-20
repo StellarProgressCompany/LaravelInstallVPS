@@ -171,8 +171,11 @@ npm run dev
 ## Step 2: Add Tailwind css
 
 ### 1.1-Install Tailwind css (and its necessary programs/dependences)
+  Open a new terminal and run the following commands:
 ```
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
+
+### 1.2-
 
