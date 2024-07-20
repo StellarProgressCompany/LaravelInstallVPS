@@ -102,6 +102,15 @@ http://localhost:81/dashboard/
 
   4.Update .env file
   Now, we must go to the .env file and change the parameters to match the ones in the image, please note that I put 3307 because it's the port of the Server I used in XAMMP
+  
+```
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3307  # Change this if your MySQL port is different
+DB_DATABASE=laravel_react_survey2
+DB_USERNAME=root  # Change this if your MySQL username is different
+DB_PASSWORD=      # Enter your MySQL password here
+```
 
   ![image](https://github.com/user-attachments/assets/5739010a-5c01-45c0-96d6-73936387d983)
 
