@@ -172,6 +172,7 @@ npm run dev
 
 ### 1.1-Install Tailwind css (and its necessary programs/dependences)
 ```
-
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
 ```
 
