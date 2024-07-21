@@ -172,14 +172,14 @@ npm run dev
 
 ## Step 2: Add Tailwind css
 
-### 1.1-Install Tailwind css (and its necessary programs/dependences)
+### 2.1-Install Tailwind css (and its necessary programs/dependences)
   Open a new terminal and run the following commands:
 ```
 npm install -D tailwindcss postcss autoprefixer
 npx tailwindcss init
 ```
 
-### 1.2-Configure your template paths
+### 2.2-Configure your template paths
   Go to the tailwind.config.js file, delete everything and then copy this:
 ```
 /** @type {import('tailwindcss').Config} */
@@ -194,18 +194,27 @@ module.exports = {
 }
 ```
 
-### 1.3-Configure spaces (OPTIONAL)
+### 2.3-Configure spaces (OPTIONAL)
   Go to the .editor file and add this lines:
 ```
 [*.{js, jsx, cjs}]
 indent_size = 2
 ```
 
-### 1.4-Add the Tailwind directives to your CSS
+### 2.4-Add the Tailwind directives to your CSS
   Go to index.css and add this directives at the top:
 
 ```
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+```
+
+
+
+
+## Step 3: Add HeroIcons (OPTIONAL but recommended)
+  ### 3.4-Install HeroIcons
+```
+npm install @heroicons/react
 ```
