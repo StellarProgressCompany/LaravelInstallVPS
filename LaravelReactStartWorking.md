@@ -19,3 +19,5 @@ php artisan serve
 ```
 npm run dev
 ```
+
+## 4th Step: Open 3rd terminal and start working!
