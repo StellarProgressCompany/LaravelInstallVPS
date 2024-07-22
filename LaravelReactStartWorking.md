@@ -1,6 +1,6 @@
 # How to set up the environment to start working (Ubuntu 22.04)
 
-It's simply needed to 
+It's simply needed to follow this steps.
 
 ## 1st Step: Enable Clipboard
 
