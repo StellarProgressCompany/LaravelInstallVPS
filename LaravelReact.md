@@ -223,3 +223,14 @@ npm install @heroicons/react
 In this url we can get the names of the icons https://unpkg.com/browse/@heroicons/vue/24/outline/
 
 Here we can get how they look like visually https://heroicons.com
+
+
+
+
+
+## Step 4: Install routes and create router file:
+
+  ### 4.1-Install react router
+```
+npm install react-router-dom
+```
