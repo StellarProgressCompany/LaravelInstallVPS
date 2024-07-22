@@ -14,9 +14,10 @@ sudo VBoxClient --clipboard
 php artisan serve
 ```
 
-## 3rd Step: Open 2nd terminal and run React Server:
+## 3rd Step: Open 2nd terminal, navigate through React directory and run React Server:
 
 ```
+cd react
 npm run dev
 ```
 
