@@ -214,7 +214,13 @@ indent_size = 2
 
 
 ## Step 3: Add HeroIcons (OPTIONAL but recommended)
-  ### 3.4-Install HeroIcons
+  ### 3.1-Install HeroIcons
 ```
 npm install @heroicons/react
 ```
+
+  ### 3.2-Import whatever is needed to get the icon desired:
+
+In this url we can get the names of the icons https://unpkg.com/browse/@heroicons/vue/24/outline/
+
+Here we can get how they look like visually https://heroicons.com
