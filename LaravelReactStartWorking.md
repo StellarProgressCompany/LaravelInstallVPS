@@ -22,4 +22,10 @@ cd react
 npm run dev
 ```
 
-## 4th Step: Open 3rd terminal and start working!
+## 4th Step: Open 3rd terminal and run both Apache and MySQL Servers:
+
+```
+sudo /opt/lampp/manager-linux-x64.run
+```
+
+## 5th Step: Open 4th terminal and start working!
