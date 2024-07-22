@@ -8,9 +8,10 @@ It's simply needed to follow this steps.
 sudo VBoxClient --clipboard
 ```
 
-## 2nd Step: Open 1st terminal and run Laravel Server:
+## 2nd Step: Open 1st terminal, navigate through your Project's dircetory and run Laravel Server:
 
 ```
+Desktop/LaravelProject/laravel-react-example
 php artisan serve
 ```
 
