@@ -210,8 +210,7 @@ indent_size = 2
 @tailwind utilities;
 ```
 
-
-
+### 2.5-Install Tailwind CSS widget in Visual Studio Code
 
 ## Step 3: Add HeroIcons (OPTIONAL but recommended)
   ### 3.1-Install HeroIcons
