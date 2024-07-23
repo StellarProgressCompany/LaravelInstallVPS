@@ -235,6 +235,67 @@ Here we can get how they look like visually https://heroicons.com
 npm install react-router-dom
 ```
 
+### 4.2-Prepare your project so it ends up like this:
+
+![image](https://github.com/user-attachments/assets/ddd0b410-7a98-4e15-80d5-4c7203f5c7fc)
+
+
+### 4.3-Copy this code in your router file:
+
+```
+import { createBrowserRouter } from "react-router-dom"
+import App from "./App"
+
+import singup from "./views/singup"
+import login from "./views/login"
+import dashboard from "./views/dashboard"
+import tabledistribution from "./views/tabledistribution"
+import dishes from "./views/dishes"
+import addcommand from "./views/addcommand"
+import earnings from "./views/earnings"
+
+
+
+const router = createBrowserRouter([
+    {
+        path: '/',
+        element: <App/>
+    },
+    {
+        path: '/singup',
+        element: <singup/>
+    },
+    {
+        path: '/login',
+        element: <login/>
+    },
+    {
+        path: '/dashboard',
+        element: <dashboard/>
+    },
+    {
+        path: '/tabledistribution',
+        element: <tabledistribution/>
+    },
+    {
+        path: '/dishes',
+        element: <dishes/>
+    },
+    {
+        path: '/addcommand',
+        element: <addcommand/>
+    },
+    {
+        path: '/earnings',
+        element: <earnings/>
+    },
+])
+
+
+export default router;
+```
+
+
 
 
 
