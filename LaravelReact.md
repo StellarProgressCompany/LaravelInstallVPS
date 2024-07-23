@@ -234,3 +234,15 @@ Here we can get how they look like visually https://heroicons.com
 ```
 npm install react-router-dom
 ```
+
+
+
+
+
+
+
+## Step 5: Install whatever taildwind css plugin needed, example:
+
+```
+npm install @tailwindcss/forms
+```
