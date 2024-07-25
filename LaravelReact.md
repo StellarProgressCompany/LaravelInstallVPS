@@ -240,77 +240,7 @@ npm install react-router-dom
 ![image](https://github.com/user-attachments/assets/ddd0b410-7a98-4e15-80d5-4c7203f5c7fc)
 
 
-### 4.3-Copy this code in your router file:
-
-```
-import { createBrowserRouter } from "react-router-dom"
-import App from "./App"
-
-import singup from "./views/singup"
-import login from "./views/login"
-import dashboard from "./views/dashboard"
-import tabledistribution from "./views/tabledistribution"
-import dishes from "./views/dishes"
-import addcommand from "./views/addcommand"
-import earnings from "./views/earnings"
-
-
-
-const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <App/>
-    },
-    {
-        path: '/singup',
-        element: <singup/>
-    },
-    {
-        path: '/login',
-        element: <login/>
-    },
-    {
-        path: '/dashboard',
-        element: <dashboard/>
-    },
-    {
-        path: '/tabledistribution',
-        element: <tabledistribution/>
-    },
-    {
-        path: '/dishes',
-        element: <dishes/>
-    },
-    {
-        path: '/addcommand',
-        element: <addcommand/>
-    },
-    {
-        path: '/earnings',
-        element: <earnings/>
-    },
-])
-
-
-export default router;
-```
-
-
-
-
-
-
-
-
-## Step 5: Install whatever taildwind css plugin needed, example:
-
-```
-npm install @tailwindcss/forms
-```
-
-
-
-
+### 4.3-Copy this code in your router and main files:
 
 ```
 // main.jsx
@@ -396,6 +326,13 @@ const routes = [
   },
 ];
 
+
+
+## Step 5: Install whatever taildwind css plugin needed, example:
+
+```
+npm install @tailwindcss/forms
+```
 const router = createBrowserRouter(routes);
 
 export default router;
