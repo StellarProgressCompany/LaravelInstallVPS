@@ -330,3 +330,73 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 );
 ```
 
+
+
+```
+// router.jsx
+import React, { useContext } from 'react';
+import { createBrowserRouter, Navigate, Outlet } from 'react-router-dom';
+import Authenticator from './views/Authenticator';
+import Dashboard from './views/Dashboard';
+import Orders from './views/Orders';
+import Carta from './views/Carta';
+import Calendar from './views/Calendar';
+import { AuthContext } from './context/AuthContext';
+import Layout from './views/Layout';
+
+const ProtectedRoute = () => {
+  const { auth } = useContext(AuthContext);
+  console.log('Auth State:', auth); // Add this line
+  return auth.isAuthenticated ? <Outlet /> : <Navigate to="/" />;
+};
+
+
+const routes = [
+  {
+    path: '/',
+    element: <Authenticator />,
+  },
+  {
+    path: '/dashboard',
+    element: <ProtectedRoute />,
+    children: [
+      {
+        path: '',
+        element: (
+          <Layout>
+            <Dashboard />
+          </Layout>
+        ),
+      },
+      {
+        path: 'orders',
+        element: (
+          <Layout>
+            <Orders />
+          </Layout>
+        ),
+      },
+      {
+        path: 'carta',
+        element: (
+          <Layout>
+            <Carta />
+          </Layout>
+        ),
+      },
+      {
+        path: 'calendar',
+        element: (
+          <Layout>
+            <Calendar />
+          </Layout>
+        ),
+      },
+    ],
+  },
+];
+
+const router = createBrowserRouter(routes);
+
+export default router;
+```
