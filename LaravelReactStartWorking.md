@@ -29,3 +29,7 @@ sudo /opt/lampp/manager-linux-x64.run
 ```
 
 ## 5th Step: Open 4th terminal and start working!
+
+```
+code ..
+```
